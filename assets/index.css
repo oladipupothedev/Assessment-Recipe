@@ -1,0 +1,63 @@
+/**styles for the recipe webpage**/
+:root {
+  --bgcolor: lightyellow;
+  --bgcolor-2: #fff8dc;
+  --primarycolor: brown;
+  --secondarycolor: black;
+  --font-family: "Georgia", serif;
+}
+/* Body Styles */
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 1.6;
+  background-color: var(--bgcolor);
+  margin: 20px;
+}
+/* Header Styles */
+h1 {
+  color: var(--primarycolor);
+  font-size: 30;
+  text-align: center;
+}
+/* Subheader Styles */
+h2 {
+  color: var(--primarycolor);
+  font-size: 24;
+  margin-top: 20px;
+}
+/* List Styles */
+li {
+  margin-bottom: 10px;
+}
+/* Recipe Content Styles */
+.recipe-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: alignment;
+}
+/* Ingredients and Instructions Styles */
+.Ingredients,
+.instructions {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--bgcolor-2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
+  margin-top: 15px;
+  border: 1px solid var(--primarycolor);
+}
+/* Link Styles */
+#reference {
+  color: var(--secondarycolor);
+  text-decoration: none;
+}
+/* Link Hover Effect */
+#reference:hover {
+  color: var(--primarycolor);
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
